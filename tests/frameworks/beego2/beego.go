@@ -15,7 +15,7 @@ import (
 	// add mssql driver
 	_ "github.com/MortezaRastegarRad/go-admin/modules/db/drivers/mssql"
 
-	"github.com/MortezaRastegarRad/themes/adminlte"
+	"github.com/GoAdminGroup/themes/adminlte"
 	"github.com/MortezaRastegarRad/go-admin/engine"
 	"github.com/MortezaRastegarRad/go-admin/modules/config"
 	"github.com/MortezaRastegarRad/go-admin/modules/language"

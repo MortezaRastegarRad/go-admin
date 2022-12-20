@@ -9,7 +9,7 @@ import (
 	_ "github.com/MortezaRastegarRad/go-admin/adapter/beego2"
 	_ "github.com/MortezaRastegarRad/go-admin/modules/db/drivers/mysql"
 
-	"github.com/MortezaRastegarRad/themes/adminlte"
+	"github.com/GoAdminGroup/themes/adminlte"
 	"github.com/MortezaRastegarRad/go-admin/engine"
 	"github.com/MortezaRastegarRad/go-admin/examples/datamodel"
 	"github.com/MortezaRastegarRad/go-admin/modules/config"

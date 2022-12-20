@@ -3,12 +3,12 @@ package datamodel
 import (
 	"html/template"
 
-	"github.com/MortezaRastegarRad/themes/adminlte/components/chart_legend"
-	"github.com/MortezaRastegarRad/themes/adminlte/components/description"
-	"github.com/MortezaRastegarRad/themes/adminlte/components/infobox"
-	"github.com/MortezaRastegarRad/themes/adminlte/components/productlist"
-	"github.com/MortezaRastegarRad/themes/adminlte/components/progress_group"
-	"github.com/MortezaRastegarRad/themes/adminlte/components/smallbox"
+	"github.com/GoAdminGroup/themes/adminlte/components/chart_legend"
+	"github.com/GoAdminGroup/themes/adminlte/components/description"
+	"github.com/GoAdminGroup/themes/adminlte/components/infobox"
+	"github.com/GoAdminGroup/themes/adminlte/components/productlist"
+	"github.com/GoAdminGroup/themes/adminlte/components/progress_group"
+	"github.com/GoAdminGroup/themes/adminlte/components/smallbox"
 	"github.com/MortezaRastegarRad/go-admin/context"
 	tmpl "github.com/MortezaRastegarRad/go-admin/template"
 	"github.com/MortezaRastegarRad/go-admin/template/chartjs"

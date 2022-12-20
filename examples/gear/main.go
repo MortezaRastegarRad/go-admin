@@ -6,12 +6,12 @@ import (
 	"os/signal"
 	"time"
 
-	_ "github.com/MortezaRastegarRad/themes/sword"
+	_ "github.com/GoAdminGroup/themes/sword"
 	_ "github.com/MortezaRastegarRad/go-admin/adapter/gear"
 	_ "github.com/MortezaRastegarRad/go-admin/modules/db/drivers/mysql"
 	"github.com/teambition/gear"
 
-	"github.com/MortezaRastegarRad/themes/adminlte"
+	"github.com/GoAdminGroup/themes/adminlte"
 	"github.com/MortezaRastegarRad/go-admin/engine"
 	"github.com/MortezaRastegarRad/go-admin/examples/datamodel"
 	"github.com/MortezaRastegarRad/go-admin/modules/config"
