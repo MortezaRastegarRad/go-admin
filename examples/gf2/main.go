@@ -13,7 +13,7 @@ import (
 	"github.com/MortezaRastegarRad/go-admin/examples/datamodel"
 	"github.com/MortezaRastegarRad/go-admin/modules/config"
 
-	"github.com/GoAdminGroup/themes/adminlte"
+	"github.com/MortezaRastegarRad/themes/adminlte"
 	"github.com/MortezaRastegarRad/go-admin/modules/language"
 	"github.com/MortezaRastegarRad/go-admin/plugins/example"
 	"github.com/MortezaRastegarRad/go-admin/template"

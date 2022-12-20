@@ -2,7 +2,7 @@ package buffalo
 
 import (
 	// add buffalo adapter
-	"github.com/GoAdminGroup/themes/adminlte"
+	"github.com/MortezaRastegarRad/themes/adminlte"
 	_ "github.com/MortezaRastegarRad/go-admin/adapter/buffalo"
 	"github.com/MortezaRastegarRad/go-admin/modules/config"
 	"github.com/MortezaRastegarRad/go-admin/modules/language"
@@ -17,7 +17,7 @@ import (
 	// add mssql driver
 	_ "github.com/MortezaRastegarRad/go-admin/modules/db/drivers/mssql"
 	// add adminlte ui theme
-	_ "github.com/GoAdminGroup/themes/adminlte"
+	_ "github.com/MortezaRastegarRad/themes/adminlte"
 
 	"github.com/MortezaRastegarRad/go-admin/template"
 	"github.com/MortezaRastegarRad/go-admin/template/chartjs"
