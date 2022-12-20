@@ -7,7 +7,7 @@ import (
 
 	"github.com/mgutz/ansi"
 
-	_ "github.com/GoAdminGroup/themes/adminlte"
+	_ "github.com/MortezaRastegarRad/themes/adminlte"
 	_ "github.com/MortezaRastegarRad/go-admin/adapter/gin"
 	_ "github.com/MortezaRastegarRad/go-admin/modules/db/drivers/mysql"
 

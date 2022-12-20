@@ -7,9 +7,9 @@ import (
 	"os/signal"
 	"time"
 
-	_ "github.com/GoAdminGroup/themes/adminlte"
 	_ "github.com/MortezaRastegarRad/go-admin/adapter/gorilla"
 	_ "github.com/MortezaRastegarRad/go-admin/modules/db/drivers/mysql"
+	_ "github.com/MortezaRastegarRad/themes/adminlte"
 
 	"github.com/MortezaRastegarRad/go-admin/engine"
 	"github.com/MortezaRastegarRad/go-admin/examples/datamodel"

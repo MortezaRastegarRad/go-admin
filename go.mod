@@ -4,6 +4,7 @@ go 1.13
 
 require (
 	github.com/360EntSecGroup-Skylar/excelize v1.4.1
+	github.com/MortezaRastegarRad/themes v1.0.1
 	github.com/GoAdminGroup/html v0.0.1
 	github.com/NebulousLabs/fastrand v0.0.0-20181203155948-6fb6489aac4e
 	github.com/denisenkom/go-mssqldb v0.0.0-20200206145737-bbfc9a55622e

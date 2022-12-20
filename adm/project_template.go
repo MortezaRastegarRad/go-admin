@@ -17,7 +17,7 @@ import (
 
 	_ "github.com/MortezaRastegarRad/go-admin/adapter/gin"                    // web framework adapter
 	_ "github.com/MortezaRastegarRad/go-admin/modules/db/drivers/{{.DriverModule}}" // sql driver
-	_ "github.com/GoAdminGroup/themes/{{.Theme}}"                       // ui theme
+	_ "github.com/MortezaRastegarRad/themes/{{.Theme}}"                       // ui theme
 
 	"github.com/MortezaRastegarRad/go-admin/engine"
 	"github.com/MortezaRastegarRad/go-admin/template"
@@ -97,7 +97,7 @@ import (
 
 	_ "github.com/MortezaRastegarRad/go-admin/adapter/beego"                   // web framework adapter
 	_ "github.com/MortezaRastegarRad/go-admin/modules/db/drivers/{{.DriverModule}}"  // sql driver
-	_ "github.com/GoAdminGroup/themes/{{.Theme}}"                        // ui theme
+	_ "github.com/MortezaRastegarRad/themes/{{.Theme}}"                        // ui theme
 
 	"github.com/MortezaRastegarRad/go-admin/engine"
 	"github.com/MortezaRastegarRad/go-admin/template"
@@ -158,7 +158,7 @@ import (
 
 	_ "github.com/MortezaRastegarRad/go-admin/adapter/buffalo"                 // web framework adapter
 	_ "github.com/MortezaRastegarRad/go-admin/modules/db/drivers/{{.DriverModule}}"  // sql driver
-	_ "github.com/GoAdminGroup/themes/{{.Theme}}"                        // ui theme
+	_ "github.com/MortezaRastegarRad/themes/{{.Theme}}"                        // ui theme
 
 	"github.com/MortezaRastegarRad/go-admin/engine"
 	"github.com/MortezaRastegarRad/go-admin/template"
@@ -224,7 +224,7 @@ import (
 
 	_ "github.com/MortezaRastegarRad/go-admin/adapter/chi"                 // web framework adapter
 	_ "github.com/MortezaRastegarRad/go-admin/modules/db/drivers/{{.DriverModule}}"  // sql driver
-	_ "github.com/GoAdminGroup/themes/{{.Theme}}"                        // ui theme
+	_ "github.com/MortezaRastegarRad/themes/{{.Theme}}"                        // ui theme
 
 	"github.com/MortezaRastegarRad/go-admin/engine"
 	"github.com/MortezaRastegarRad/go-admin/template"
@@ -307,7 +307,7 @@ import (
 
 	_ "github.com/MortezaRastegarRad/go-admin/adapter/echo"                 // web framework adapter
 	_ "github.com/MortezaRastegarRad/go-admin/modules/db/drivers/{{.DriverModule}}"  // sql driver
-	_ "github.com/GoAdminGroup/themes/{{.Theme}}"                        // ui theme
+	_ "github.com/MortezaRastegarRad/themes/{{.Theme}}"                        // ui theme
 
 	"github.com/MortezaRastegarRad/go-admin/engine"
 	"github.com/MortezaRastegarRad/go-admin/template"
@@ -365,7 +365,7 @@ import (
 
 	_ "github.com/MortezaRastegarRad/go-admin/adapter/fasthttp"                 // web framework adapter
 	_ "github.com/MortezaRastegarRad/go-admin/modules/db/drivers/{{.DriverModule}}"  // sql driver
-	_ "github.com/GoAdminGroup/themes/{{.Theme}}"                        // ui theme
+	_ "github.com/MortezaRastegarRad/themes/{{.Theme}}"                        // ui theme
 
 	"github.com/MortezaRastegarRad/go-admin/engine"
 	"github.com/MortezaRastegarRad/go-admin/template"
@@ -426,7 +426,7 @@ import (
 
 	_ "github.com/MortezaRastegarRad/go-admin/adapter/gf"                 // web framework adapter
 	_ "github.com/MortezaRastegarRad/go-admin/modules/db/drivers/{{.DriverModule}}"  // sql driver
-	_ "github.com/GoAdminGroup/themes/{{.Theme}}"                        // ui theme
+	_ "github.com/MortezaRastegarRad/themes/{{.Theme}}"                        // ui theme
 
 	"github.com/MortezaRastegarRad/go-admin/engine"
 	"github.com/MortezaRastegarRad/go-admin/template"
@@ -486,7 +486,7 @@ import (
 
 	_ "github.com/MortezaRastegarRad/go-admin/adapter/gorilla"                 // web framework adapter
 	_ "github.com/MortezaRastegarRad/go-admin/modules/db/drivers/{{.DriverModule}}"  // sql driver
-	_ "github.com/GoAdminGroup/themes/{{.Theme}}"                        // ui theme
+	_ "github.com/MortezaRastegarRad/themes/{{.Theme}}"                        // ui theme
 
 	"github.com/MortezaRastegarRad/go-admin/engine"
 	"github.com/MortezaRastegarRad/go-admin/template"
@@ -546,7 +546,7 @@ import (
 
 	_ "github.com/MortezaRastegarRad/go-admin/adapter/iris"                 // web framework adapter
 	_ "github.com/MortezaRastegarRad/go-admin/modules/db/drivers/{{.DriverModule}}"  // sql driver
-	_ "github.com/GoAdminGroup/themes/{{.Theme}}"                        // ui theme
+	_ "github.com/MortezaRastegarRad/themes/{{.Theme}}"                        // ui theme
 
 	"github.com/MortezaRastegarRad/go-admin/engine"
 	"github.com/MortezaRastegarRad/go-admin/template"
@@ -609,10 +609,10 @@ import (
 	template2 "github.com/MortezaRastegarRad/go-admin/template"
 	"github.com/MortezaRastegarRad/go-admin/template/chartjs"
 	"github.com/MortezaRastegarRad/go-admin/template/types"
-	"github.com/GoAdminGroup/themes/sword/components/card"
-	"github.com/GoAdminGroup/themes/sword/components/chart_legend"
-	"github.com/GoAdminGroup/themes/sword/components/description"
-	"github.com/GoAdminGroup/themes/sword/components/progress_group"
+	"github.com/MortezaRastegarRad/themes/sword/components/card"
+	"github.com/MortezaRastegarRad/themes/sword/components/chart_legend"
+	"github.com/MortezaRastegarRad/themes/sword/components/description"
+	"github.com/MortezaRastegarRad/themes/sword/components/progress_group"
 	"html/template"
 )
 
@@ -882,12 +882,12 @@ import (
 	"github.com/MortezaRastegarRad/go-admin/template/chartjs"
 	"github.com/MortezaRastegarRad/go-admin/template/icon"
 	"github.com/MortezaRastegarRad/go-admin/template/types"
-	"github.com/GoAdminGroup/themes/adminlte/components/chart_legend"
-	"github.com/GoAdminGroup/themes/adminlte/components/description"
-	"github.com/GoAdminGroup/themes/adminlte/components/infobox"
-	"github.com/GoAdminGroup/themes/adminlte/components/productlist"
-	"github.com/GoAdminGroup/themes/adminlte/components/progress_group"
-	"github.com/GoAdminGroup/themes/adminlte/components/smallbox"
+	"github.com/MortezaRastegarRad/themes/adminlte/components/chart_legend"
+	"github.com/MortezaRastegarRad/themes/adminlte/components/description"
+	"github.com/MortezaRastegarRad/themes/adminlte/components/infobox"
+	"github.com/MortezaRastegarRad/themes/adminlte/components/productlist"
+	"github.com/MortezaRastegarRad/themes/adminlte/components/progress_group"
+	"github.com/MortezaRastegarRad/themes/adminlte/components/smallbox"
 	"html/template"
 )
 

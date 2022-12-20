@@ -85,7 +85,7 @@ import (
 	_ "github.com/MortezaRastegarRad/go-admin/modules/db/drivers/mysql"
 	"github.com/MortezaRastegarRad/go-admin/engine"
 	"github.com/MortezaRastegarRad/go-admin/plugins/admin"
-	"github.com/GoAdminGroup/themes/adminlte"
+	"github.com/MortezaRastegarRad/themes/adminlte"
 	"github.com/MortezaRastegarRad/go-admin/modules/config"
 	"github.com/MortezaRastegarRad/go-admin/template"
     	"github.com/MortezaRastegarRad/go-admin/template/chartjs"

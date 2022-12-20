@@ -3,7 +3,7 @@ package paginator
 import (
 	"testing"
 
-	_ "github.com/GoAdminGroup/themes/sword"
+	_ "github.com/MortezaRastegarRad/themes/sword"
 	"github.com/MortezaRastegarRad/go-admin/modules/config"
 	"github.com/MortezaRastegarRad/go-admin/plugins/admin/modules/parameter"
 )

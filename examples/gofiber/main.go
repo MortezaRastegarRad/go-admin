@@ -6,7 +6,7 @@ import (
 	"os/signal"
 	"time"
 
-	_ "github.com/GoAdminGroup/themes/adminlte"
+	_ "github.com/MortezaRastegarRad/themes/adminlte"
 	_ "github.com/MortezaRastegarRad/go-admin/adapter/gofiber"
 	_ "github.com/MortezaRastegarRad/go-admin/modules/db/drivers/mysql"
 
