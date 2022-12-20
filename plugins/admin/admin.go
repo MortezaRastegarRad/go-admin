@@ -1,18 +1,18 @@
 package admin
 
 import (
-	"github.com/GoAdminGroup/go-admin/context"
-	"github.com/GoAdminGroup/go-admin/modules/config"
-	"github.com/GoAdminGroup/go-admin/modules/service"
-	"github.com/GoAdminGroup/go-admin/modules/system"
-	"github.com/GoAdminGroup/go-admin/modules/utils"
-	"github.com/GoAdminGroup/go-admin/plugins"
-	"github.com/GoAdminGroup/go-admin/plugins/admin/controller"
-	"github.com/GoAdminGroup/go-admin/plugins/admin/modules/guard"
-	"github.com/GoAdminGroup/go-admin/plugins/admin/modules/table"
-	"github.com/GoAdminGroup/go-admin/template/types"
-	"github.com/GoAdminGroup/go-admin/template/types/action"
-	_ "github.com/GoAdminGroup/go-admin/template/types/display"
+	"github.com/MortezaRastegarRad/go-admin/context"
+	"github.com/MortezaRastegarRad/go-admin/modules/config"
+	"github.com/MortezaRastegarRad/go-admin/modules/service"
+	"github.com/MortezaRastegarRad/go-admin/modules/system"
+	"github.com/MortezaRastegarRad/go-admin/modules/utils"
+	"github.com/MortezaRastegarRad/go-admin/plugins"
+	"github.com/MortezaRastegarRad/go-admin/plugins/admin/controller"
+	"github.com/MortezaRastegarRad/go-admin/plugins/admin/modules/guard"
+	"github.com/MortezaRastegarRad/go-admin/plugins/admin/modules/table"
+	"github.com/MortezaRastegarRad/go-admin/template/types"
+	"github.com/MortezaRastegarRad/go-admin/template/types/action"
+	_ "github.com/MortezaRastegarRad/go-admin/template/types/display"
 )
 
 // Admin is a GoAdmin plugin.

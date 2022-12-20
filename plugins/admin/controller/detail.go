@@ -3,16 +3,16 @@ package controller
 import (
 	"fmt"
 
-	"github.com/GoAdminGroup/go-admin/context"
-	"github.com/GoAdminGroup/go-admin/modules/auth"
-	"github.com/GoAdminGroup/go-admin/modules/language"
-	"github.com/GoAdminGroup/go-admin/plugins/admin/modules"
-	"github.com/GoAdminGroup/go-admin/plugins/admin/modules/constant"
-	form2 "github.com/GoAdminGroup/go-admin/plugins/admin/modules/form"
-	"github.com/GoAdminGroup/go-admin/plugins/admin/modules/parameter"
-	"github.com/GoAdminGroup/go-admin/template"
-	"github.com/GoAdminGroup/go-admin/template/types"
-	"github.com/GoAdminGroup/go-admin/template/types/form"
+	"github.com/MortezaRastegarRad/go-admin/context"
+	"github.com/MortezaRastegarRad/go-admin/modules/auth"
+	"github.com/MortezaRastegarRad/go-admin/modules/language"
+	"github.com/MortezaRastegarRad/go-admin/plugins/admin/modules"
+	"github.com/MortezaRastegarRad/go-admin/plugins/admin/modules/constant"
+	form2 "github.com/MortezaRastegarRad/go-admin/plugins/admin/modules/form"
+	"github.com/MortezaRastegarRad/go-admin/plugins/admin/modules/parameter"
+	"github.com/MortezaRastegarRad/go-admin/template"
+	"github.com/MortezaRastegarRad/go-admin/template/types"
+	"github.com/MortezaRastegarRad/go-admin/template/types/form"
 )
 
 func (h *Handler) ShowDetail(ctx *context.Context) {

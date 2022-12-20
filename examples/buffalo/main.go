@@ -7,17 +7,17 @@ import (
 	"os/signal"
 	"time"
 
-	_ "github.com/GoAdminGroup/go-admin/adapter/buffalo"
-	_ "github.com/GoAdminGroup/go-admin/modules/db/drivers/mysql"
+	_ "github.com/MortezaRastegarRad/go-admin/adapter/buffalo"
+	_ "github.com/MortezaRastegarRad/go-admin/modules/db/drivers/mysql"
 
-	"github.com/GoAdminGroup/go-admin/engine"
-	"github.com/GoAdminGroup/go-admin/examples/datamodel"
-	"github.com/GoAdminGroup/go-admin/modules/config"
-	"github.com/GoAdminGroup/go-admin/modules/language"
-	"github.com/GoAdminGroup/go-admin/plugins/example"
-	"github.com/GoAdminGroup/go-admin/template"
-	"github.com/GoAdminGroup/go-admin/template/chartjs"
 	"github.com/GoAdminGroup/themes/adminlte"
+	"github.com/MortezaRastegarRad/go-admin/engine"
+	"github.com/MortezaRastegarRad/go-admin/examples/datamodel"
+	"github.com/MortezaRastegarRad/go-admin/modules/config"
+	"github.com/MortezaRastegarRad/go-admin/modules/language"
+	"github.com/MortezaRastegarRad/go-admin/plugins/example"
+	"github.com/MortezaRastegarRad/go-admin/template"
+	"github.com/MortezaRastegarRad/go-admin/template/chartjs"
 	"github.com/gobuffalo/buffalo"
 )
 

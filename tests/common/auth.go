@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/GoAdminGroup/go-admin/modules/auth"
-	"github.com/GoAdminGroup/go-admin/modules/config"
+	"github.com/MortezaRastegarRad/go-admin/modules/auth"
+	"github.com/MortezaRastegarRad/go-admin/modules/config"
 	"github.com/gavv/httpexpect"
 )
 

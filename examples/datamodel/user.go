@@ -3,17 +3,17 @@ package datamodel
 import (
 	"fmt"
 
-	"github.com/GoAdminGroup/go-admin/context"
-	"github.com/GoAdminGroup/go-admin/modules/db"
-	form2 "github.com/GoAdminGroup/go-admin/plugins/admin/modules/form"
-	"github.com/GoAdminGroup/go-admin/plugins/admin/modules/table"
-	"github.com/GoAdminGroup/go-admin/template"
-	"github.com/GoAdminGroup/go-admin/template/icon"
-	"github.com/GoAdminGroup/go-admin/template/types"
-	"github.com/GoAdminGroup/go-admin/template/types/action"
-	"github.com/GoAdminGroup/go-admin/template/types/form"
-	selection "github.com/GoAdminGroup/go-admin/template/types/form/select"
-	editType "github.com/GoAdminGroup/go-admin/template/types/table"
+	"github.com/MortezaRastegarRad/go-admin/context"
+	"github.com/MortezaRastegarRad/go-admin/modules/db"
+	form2 "github.com/MortezaRastegarRad/go-admin/plugins/admin/modules/form"
+	"github.com/MortezaRastegarRad/go-admin/plugins/admin/modules/table"
+	"github.com/MortezaRastegarRad/go-admin/template"
+	"github.com/MortezaRastegarRad/go-admin/template/icon"
+	"github.com/MortezaRastegarRad/go-admin/template/types"
+	"github.com/MortezaRastegarRad/go-admin/template/types/action"
+	"github.com/MortezaRastegarRad/go-admin/template/types/form"
+	selection "github.com/MortezaRastegarRad/go-admin/template/types/form/select"
+	editType "github.com/MortezaRastegarRad/go-admin/template/types/table"
 )
 
 // GetUserTable return the model of table user.
